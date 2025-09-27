@@ -21,8 +21,8 @@ def total_salary(path):
         return (0, 0)
     
     total_payroll = sum((salary))
-    average_salary = total_payroll / len(salary)
-    result = (total_payroll,int(average_salary))
+    average_salary = sum((salary)) / len(salary)
+    result = (total_payroll, average_salary)
     return result
 
 
